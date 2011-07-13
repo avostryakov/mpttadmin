@@ -1,0 +1,2 @@
+This is fork of mpttadmin application for django admin: http://pypi.python.org/pypi/mpttadmin/0.3.1
+This fork was created to fix one problem with mptt 0.5 and above
