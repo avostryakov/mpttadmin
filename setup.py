@@ -14,11 +14,11 @@ setup(
     url = 'http://code.tabed.org/mptt_admin',
     install_requires=[],
     packages=['mpttadmin'],#find_packages(),
-    package_data = { 'mpttadmin': [
-        'media/js/*.js',
-        'media/js/lib/*.js',
-        'media/js/lib/plugins/*.js',
-        'media/js/lib/themes/*/*',
+    package_data = { 'media': [
+        'js/*.js',
+        'js/lib/*.js',
+        'js/lib/plugins/*.js',
+        'js/lib/themes/*/*',
     ]},
     include_package_data=True,
     classifiers=[
