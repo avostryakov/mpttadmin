@@ -13,7 +13,7 @@ setup(
     platforms = "POSIX",
     url = 'http://code.tabed.org/mptt_admin',
     install_requires=[],
-    packages=['mpttadmin'],#find_packages(),
+    packages=[],#find_packages(),
     package_data = { 'media': [
         'js/*.js',
         'js/lib/*.js',
