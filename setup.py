@@ -12,7 +12,7 @@ setup(
     keywords = "django admin",
     platforms = "POSIX",
     url = 'http://code.tabed.org/mptt_admin',
-    install_requires=['django'],
+    install_requires=[],
     packages=['mpttadmin'],#find_packages(),
     package_data = { 'mpttadmin': [
         'media/js/*.js',
